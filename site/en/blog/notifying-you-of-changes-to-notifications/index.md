@@ -279,7 +279,7 @@ Android:
 
 
 ```js
-if (!'Notification' in window) {
+if (!('Notification' in window)) {
     // Notifications aren't supported
     return;
 }
